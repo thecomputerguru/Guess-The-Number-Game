@@ -108,7 +108,7 @@ class Game():
         elif userInput == '1':
             Game.main()
         else:
-            pass
+            Error.invSelection()
 
 class Program():
 
