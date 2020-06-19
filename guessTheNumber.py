@@ -12,7 +12,7 @@ class Function():
 class Error():
 
     def invSelection():
-        print('ERROR: Invalid ')
+        print('ERROR: Invalid selection.')
 
 class Header():
 
