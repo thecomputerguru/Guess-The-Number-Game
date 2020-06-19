@@ -4,7 +4,7 @@ import random
 class Function():
 
     def screenClear():
-        os.system('clear')
+        os.system('clear' if os.name == 'posix' else 'cls')
 
     def lineBreak():
         print('')
