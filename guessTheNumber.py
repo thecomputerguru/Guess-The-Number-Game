@@ -53,7 +53,7 @@ class Game():
             Game.setup()
             Game.main()
         elif cont == 'n':
-            Game.setup()thecomputerguru/Guess-The-Number-Game
+            Game.setup()
             Game.mainMenu()
 
     def main():
