@@ -9,11 +9,6 @@ class Function():
     def lineBreak():
         print('')
 
-class Error():
-
-    def invSelection():
-        print('ERROR: Invalid selection.')
-
 class Header():
 
     def title():
@@ -107,9 +102,6 @@ class Game():
             Program.quit()
         elif userInput == '1':
             Game.main()
-        else:
-            Error.invSelection()
-            Game.mainMenu()
 
 class Program():
 
