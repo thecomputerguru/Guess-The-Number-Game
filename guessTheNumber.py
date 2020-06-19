@@ -79,7 +79,6 @@ class Game():
                     print('Your guess is correct!')
                     guesses = 4
                     points += 1
-                    highScore += 1
                     Game.generateNewRandomNum()
                     print('Your computer has chosen a new number between'+' '+str(minNum)+' '+'and'+' '+str(maxNum))
             else:
