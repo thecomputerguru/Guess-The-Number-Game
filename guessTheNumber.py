@@ -42,7 +42,6 @@ class Game():
         points = 0
         minNum = 0
         maxNum = 5
-        highScore = 0
         guesses = 4
 
     def generateNewRandomNum():
