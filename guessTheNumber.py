@@ -46,6 +46,8 @@ class Game():
     def gameOver():
         Function.screenClear()
         Header.gameOvr()
+        Function.lineBreak()
+        print('The randomly choosen number was:',str(randomNum))
         for line in range(2):
             Function.lineBreak()
         cont = input('Would you like to play again? (y/n) ')
