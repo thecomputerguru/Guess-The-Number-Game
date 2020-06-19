@@ -109,6 +109,7 @@ class Game():
             Game.main()
         else:
             Error.invSelection()
+            Game.mainMenu()
 
 class Program():
 
