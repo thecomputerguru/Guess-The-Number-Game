@@ -57,7 +57,7 @@ class Game():
             Game.mainMenu()
 
     def main():
-        global guesses,randomNum,points,maxNum,level,highScore
+        global guesses,randomNum,points,maxNum,level
         Function.screenClear()
         Header.game()
         Game.generateNewRandomNum()
