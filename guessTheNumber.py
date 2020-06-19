@@ -36,7 +36,7 @@ class Header():
 class Game():
 
     def setup():
-        global level,points,minNum,maxNum,highScore,guesses
+        global level,points,minNum,maxNum,guesses
 
         level = 0
         points = 0
